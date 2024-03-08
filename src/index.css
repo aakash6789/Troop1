@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BkBook';
+  src: url('./assets/font/FuturaBkBook.ttf') format('truetype'), 
+       url('./assets/font/FuturaBkBook.ttf') format('truetype'); 
+       
+}
+@font-face {
+  font-family: 'Hv';
+  src: url('./assets/font/FuturaHv.ttf') format('truetype'), 
+       url('./assets/font/FuturaHv.ttf') format('truetype'); 
+       
+}

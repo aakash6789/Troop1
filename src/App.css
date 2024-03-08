@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'BkBook ';
+    src: url('./assets/font/FuturaBkBook.ttf') format('ttf'), /* Modern Browsers */
+         url('./assets/font/FuturaBkBook.ttf') format('ttf'); /* Older Browsers */
+         
+    /* You can also include additional font formats like .ttf if needed */
+  }
