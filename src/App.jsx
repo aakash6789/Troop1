@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import WorkFlow from './components/WorkFlow'
-
+import LivePlayers from './components/LivePlayers'
 import About from './components/About'
 import './App.css'
 
@@ -15,6 +15,7 @@ function App() {
      <Banner/> 
      <About/>
      <WorkFlow/>
+     {/* <LivePlayers/> */}
     </div>
   )
 }
