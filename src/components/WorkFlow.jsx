@@ -14,6 +14,7 @@ const WorkFlow = () => {
         <div className='w-[25%] absolute left-[15%] text-white  lg:top-[12vh] md:mt-[25vh] max-md:mt-[23vh] max-sm:mt-[20vh] '>
             <p>How it works</p>
     <div className='font-bold xl:text-[5.8vh] md:text-[3vh] sm:text-[2vh]  max-sm:text-[1.8vh] mt-2'>Headline with USP related to <span className='text-[#ECC960]'>how your product </span>or service works</div>
+    <button className='text-[#121212] bg-[#ECC960] rounded-full px-[5.0%] py-5 md:mt-[45%] xl:mt-[34%] mt-[35%] max-sm:mt-[42%] max-sm:w-[50%] max-sm:mr-[2%]  font-semibold md:text-[0.85em] sm:text-[0.7em] max-sm:text-[0.4em]'>Download Now</button>
       </div>
       <div className='w-[50%] absolute right-[0%] lg:top-[12vh] md:mt-[25vh] max-md:mt-[23vh] max-sm:mt-[20vh] xl:text-[2vh] md:text-[1vh] sm:text-[1vh]  max-sm:text-[0.8vh]'>
         <div className='flex ml-[5%]'>

@@ -5,6 +5,9 @@ import WorkFlow from './components/WorkFlow'
 import LivePlayers from './components/LivePlayers'
 import About from './components/About'
 import './App.css'
+import Testimonial from './components/Testimonial'
+import Blog from './components/Blog'
+import ContactUs from './components/ContactUs'
 
 function App() {
 
@@ -16,6 +19,9 @@ function App() {
      <About/>
      <WorkFlow/>
      {/* <LivePlayers/> */}
+     <Testimonial/>
+     <Blog/>
+     <ContactUs/>
     </div>
   )
 }
