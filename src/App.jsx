@@ -8,6 +8,7 @@ import './App.css'
 import Testimonial from './components/Testimonial'
 import Blog from './components/Blog'
 import ContactUs from './components/ContactUs'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
      <Testimonial/>
      <Blog/>
      <ContactUs/>
+     <Footer/>
     </div>
   )
 }
