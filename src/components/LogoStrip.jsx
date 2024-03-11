@@ -16,7 +16,7 @@ import img10 from "../assets/images/logo-31100.png";
 import img11 from "../assets/images/Frame 1000001996100.png"
 import img12 from "../assets/images/samsung-logo-nnanhj100.png"
 import img13 from "../assets/images/logo-v.png"
-import Circle from "../assets/images/Circle.png"
+import Circle from "../assets/images/Circle1.png"
 
 const YourComponent = () => {
   const settings = {
