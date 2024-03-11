@@ -123,7 +123,7 @@ return(
 
     <div className=' pb-6 relative ' style={{ backgroundColor: '#1B1B1D', padding: '18px 0px', flexDirection: 'column', alignItems: 'center', gap: '10px', width: '100%', marginTop: '20px' }} id='home1'>
       {/* <Circle/> */}
-      {/* <img src={Circle} className='w-[8%] absolute bottom-[105%] ml-[8%]'></img> */}
+      <img src={Circle} className='w-[8%] absolute lg:bottom-[105%] ml-[8%] md:bottom-[110%] md:w-[8%] sm:w-[10%] sm:bottom-[115%] max-sm:w-[12%] max-sm:bottom-[98%]'></img>
       <div style={{ marginBottom: '40px', marginRight: windowWidth < 768 ? '0' : '200px' }} className='relative'>
         {/* <h4 className='text-4xl text-center my-7 font-bold color-white' style={currentTextStyles}>
           Trusted by India’s best companies

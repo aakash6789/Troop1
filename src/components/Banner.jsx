@@ -28,7 +28,7 @@ const Banner = () => {
       <img src={banner} className='w-[40%] absolute right-[7%] mt-[5%]'></img>
       </div>
       <button className='text-[#121212] bg-[#ECC960] rounded-full px-[3.0%] py-5 md:mt-[45%] xl:mt-[44%] mt-[35%] max-sm:mt-[42%] max-sm:w-[20%] max-sm:mr-[2%] absolute left-[10%] font-semibold md:text-[0.85em] sm:text-[0.7em]max-sm:mt-[20%] max-sm:text-[0.4em]'>Download Now</button>
-      <div className='h-[32vh]  mt-[55%] bg-[#1B1B1D] pt-12'>
+      <div className='h-[30vh]  mt-[65%] bg-[#1B1B1D] pt-12 max-sm:pt-2'>
       <LogoStrip/>
 
       </div>

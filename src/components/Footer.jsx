@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className=''>
       <hr className='w-[90%] bg-white mt-[3%] mx-[5%]'></hr>
-      <div className='mt-[2%] xl:px-[5%]  mb-[3%] flex justify-between w-[50%] ml-[25%] text-[2vh] lg:text-[1vh] md:text-[0.9vh] sm:text-[1.2vh] max-sm:text-[0.6vh]'>
+      <div className='mt-[2%] xl:px-[5%]  mb-[3%] flex justify-between w-[50%] ml-[25%] text-[2vh] xl:text-[2vh] lg:text-[1vh] md:text-[0.9vh] sm:text-[1.2vh] max-sm:text-[0.6vh]'>
         <span>&#169; {currentYear} TROOP.All rights reserved.</span>
         <span className='underline'>Privacy Policy</span>
         <span className='underline'>Terms of Service</span>
