@@ -88,7 +88,7 @@ import root25 from '../assets/images/Name.png';
     },
   ];
   return (
-    <div className='w-full absolute font-primary text-white xl:top-[370vh] lg:top-[332vh]  md:mt-[235vh] max-md:mt-[195vh] max-sm:mt-[170vh]'>
+    <div className='w-full absolute font-primary text-white xl:top-[380vh] lg:top-[332vh]  md:mt-[235vh] max-md:mt-[195vh] max-sm:mt-[170vh]'>
     <div style={{width:"100%",marginTop: windowWidth < 768 ? '0':"20px"}}>
     <div style={{ textAlign: 'center', marginTop: '40px', wordSpacing: '4px', fontFamily: ' Futura Hv BT', fontStyle: 'normal', fontWeight: '400', lineHeight: '125%', currentStyles,marginRight: windowWidth < 768 ? '0':"100px" }}>
       <h4>
