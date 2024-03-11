@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import WorkFlow from './components/WorkFlow'
-import LivePlayers from './components/LivePlayers'
-import About from './components/About'
+import Navbar from './components/Navbar.jsx'
+import Banner from './components/Banner.jsx'
+import WorkFlow from './components/WorkFlow.jsx'
+import LivePlayers from './components/LivePlayers.jsx'
+import About from './components/About.jsx'
 import './App.css'
-import Testimonial from './components/Testimonial'
-import Blog from './components/Blog'
-import ContactUs from './components/ContactUs'
-import Footer from './components/Footer'
+import Testimonial from './components/Testimonial.jsx'
+import Blog from './components/Blog.jsx'
+import ContactUs from './components/ContactUs.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 

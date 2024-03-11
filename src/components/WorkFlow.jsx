@@ -6,7 +6,7 @@ import Step4 from '../assets/images/Step4.png'
 import FeaturePhone from '../assets/images/FeaturePhone.png'
 import blackshield from '../assets/images/black_shield.png'
 import whiteshield from '../assets/images/white_shield.png'
-import LivePlayers from './LivePlayers'
+import LivePlayers from './LivePlayers.jsx'
 import Rating from '../assets/images/Rating.png'
 const WorkFlow = () => {
   return (
