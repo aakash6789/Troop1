@@ -1,26 +1,4 @@
-// import React from 'react'
-// import adidas from '../assets/images/adidas2.png'
-// import burberry from '../assets/images/burberry2.png'
-// import dell from '../assets/images/dell2.png'
-// import nike from '../assets/images/nike2.png'
-// import Swiggy from '../assets/images/Swiggy2.png'
-// import Zara from '../assets/images/zara2.png'
-// import Zomato from '../assets/images/zomato2.png'
-// const LogoStrip = () => {
-//   return (
-//     <div className='w-[full] absolute mt-[60%] ml-[10%] flex bg-[#1B1B1D]'>
-//         <img src={nike}></img>
-//         <img src={dell}></img>
-//         <img src={burberry}></img>
-//         <img src={Zomato}></img>
-//         <img src={adidas}></img>
-//         <img src={Swiggy}></img>
-//         <img src={Zara}></img>
-//       </div>
-//   )
-// }
 
-// export default LogoStrip
 
 
 import React, { useEffect, useState } from 'react'; 
@@ -38,6 +16,8 @@ import img10 from "../assets/images/logo-31100.png";
 import img11 from "../assets/images/Frame 1000001996100.png"
 import img12 from "../assets/images/samsung-logo-nnanhj100.png"
 import img13 from "../assets/images/logo-v.png"
+import Circle from "../assets/images/Circle.png"
+
 const YourComponent = () => {
   const settings = {
     infinite: true,
@@ -141,8 +121,9 @@ const YourComponent = () => {
 const images=[ img2, img11,img1,img3,img6,img8,img11,img7,img12, img9,img10,img5,img4,img13 ];
 return(
 
-    <div className=' pb-6 ' style={{ backgroundColor: '#1B1B1D', padding: '18px 0px', flexDirection: 'column', alignItems: 'center', gap: '10px', width: '100%', marginTop: '20px' }} id='home1'>
+    <div className=' pb-6 relative ' style={{ backgroundColor: '#1B1B1D', padding: '18px 0px', flexDirection: 'column', alignItems: 'center', gap: '10px', width: '100%', marginTop: '20px' }} id='home1'>
       {/* <Circle/> */}
+      {/* <img src={Circle} className='w-[8%] absolute bottom-[105%] ml-[8%]'></img> */}
       <div style={{ marginBottom: '40px', marginRight: windowWidth < 768 ? '0' : '200px' }} className='relative'>
         {/* <h4 className='text-4xl text-center my-7 font-bold color-white' style={currentTextStyles}>
           Trusted by India’s best companies
