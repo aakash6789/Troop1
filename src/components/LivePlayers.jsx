@@ -9,7 +9,7 @@ const LivePlayers = () => {
         <hr className='bg-white w-[3%] h-[2px] mt-2 mx-auto'></hr>
         <div className='bg-[#222223] mb-16 justify-between flex   xl:w-[16%] xl:ml-[42%] lg:w-[26%] py-4 px-4 lg:ml-[38%] mt-[5vh] rounded-md max-sm:w-[28%] min-sm:ml-[5%] sm:w-[38%] sm:ml-[33%] md:w-[28%] md:ml-[35%] max-sm:ml-[37%]'>
             <span className='text-[1em] max-sm:text-[0.5em]'>App rating</span>
-            <img src={Rating} className='w-[60%] ml-[2%] ' alt='Rating'></img>
+            <img src={Rating} className='w-[60%] ml-[2%] max-sm:w-[40%] ' alt='Rating'></img>
         </div>
       </div>
     </div>
