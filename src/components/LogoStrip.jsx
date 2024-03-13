@@ -16,7 +16,8 @@ import img10 from "../assets/images/logo-31100.png";
 import img11 from "../assets/images/Frame 1000001996100.png"
 import img12 from "../assets/images/samsung-logo-nnanhj100.png"
 import img13 from "../assets/images/logo-v.png"
-import Circle from "../assets/images/Circle1.png"
+// import Circle from "../assets/images/Circle1.png"
+import Circle from "../components/Circle.jsx"
 
 const YourComponent = () => {
   const settings = {
@@ -122,8 +123,8 @@ const images=[ img2, img11,img1,img3,img6,img8,img11,img7,img12, img9,img10,img5
 return(
 
     <div className=' pb-6 relative ' style={{ backgroundColor: '#1B1B1D', padding: '18px 0px', flexDirection: 'column', alignItems: 'center', gap: '10px', width: '100%', marginTop: '20px' }} id='home1'>
-      {/* <Circle/> */}
-      <img src={Circle} className='w-[8%] absolute lg:bottom-[105%] ml-[8%] md:bottom-[110%] md:w-[8%] sm:w-[10%] sm:bottom-[115%] max-sm:w-[12%] max-sm:bottom-[98%]'></img>
+      <Circle/>
+      {/* <img src={Circle} className='w-[8%] absolute lg:bottom-[105%] ml-[8%] md:bottom-[110%] md:w-[8%] sm:w-[10%] sm:bottom-[115%] max-sm:w-[12%] max-sm:bottom-[98%]'></img> */}
       <div style={{ marginBottom: '40px', marginRight: windowWidth < 768 ? '0' : '200px' }} className='relative'>
         {/* <h4 className='text-4xl text-center my-7 font-bold color-white' style={currentTextStyles}>
           Trusted by India’s best companies
