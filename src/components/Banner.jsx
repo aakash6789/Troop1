@@ -27,9 +27,9 @@ const Banner = () => {
         {/* <div className='md:text-[7vh] absolute w-[35%] left-[43%] mt-[20.7%] font-extrabold'>TO</div> */}
       <img src={banner} className='max-sm:w-[80%] w-[40%] absolute max-sm:left-[7%] sm:right-[7%] mt-[5%] max-sm:mt-4'></img>
       </div>
-      {/* <button className='text-[#121212] bg-[#ECC960] rounded-full px-[3.0%] py-5 md:mt-[45%] xl:mt-[44%] mt-[35%] max-sm:mt-[42%] max-sm:w-[20%] max-sm:mr-[2%] absolute left-[10%] font-semibold md:text-[0.85em] sm:text-[0.7em]max-sm:mt-[20%] max-sm:text-[0.4em]'>Download Now</button> */}
-      <div className='h-[30vh]  mt-[90vh] bg-[#1B1B1D] pt-12 max-sm:pt-2'>
-      {/* <LogoStrip/> */}
+      <button className='text-[#121212] bg-[#ECC960] rounded-full px-[3.0%] py-5 md:mt-[45%] xl:mt-[32%] mt-[35%] max-sm:top-[50%] max-sm:mr-[2%] absolute left-[10%] font-semibold md:text-[0.85em] sm:text-[0.7em] max-sm:text-[1.5vh] max-sm:w-[30%] max-sm:left-[35%]'>Download Now</button>
+      <div className='h-[30vh]  mt-[110vh] max-sm:mt-[100vh] bg-[#1B1B1D] pt-12 max-sm:pt-2'>
+      <LogoStrip/>
 
       </div>
     </div>
