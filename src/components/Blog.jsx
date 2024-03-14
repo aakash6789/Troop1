@@ -2,8 +2,9 @@ import React from 'react'
 import money from '../assets/images/money.png'
 import world from '../assets/images/world.png'
 import stocks from '../assets/images/stocks.png'
-
+import useMediaQuery from '../hooks/useMediaQuery.jsx'
 const Blog = () => {
+  const isAboveSmallScreens = useMediaQuery("(min-width:768px)");
   return (
     <div className='bg-[#151518] w-full absolute font-primary text-white xl:top-[370vh] lg:top-[362vh]  md:mt-[340vh] max-md:mt-[270vh] max-sm:mt-[370vh]'>
         <p className='text-center text-[2vh] font-bold max-sm:text-[1.5vh] '>Blog</p>
