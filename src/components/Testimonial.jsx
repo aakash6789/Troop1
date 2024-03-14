@@ -51,41 +51,46 @@ import root25 from '../assets/images/Name.png';
   const data = [
     {
       Image1: root25,
-      name: 'John Morgan',
+      name: `Jacob CV`,
       img: root20,
       rating: 5,
-      review:
-        'This app is an absolute gem for those who want to have fun and learn about the stock market. I ve already made some decent money from playing this game and I m hooked!"',
+      review:`Troop, yaar, you're something else! I've been trading stocks for ages, but this app just adds a whole new level of excitement to it. It's like playing a game where every move matters. And the best part? The withdrawal process is super quick!`,
     },
     {
       Image1: root25,
-      name: 'Ellie Anderson',
+      name: 'Neha K',
       img: root21,
       rating: 5,
-      review: 'This app is an absolute gem for those who want to have fun and learn about the stock market. I ve already made some decent money from playing this game and I m hooked!"',
+      review: `Dude, I've been hooked to Troop ever since it launched! It's like gaming and investing combined in one epic package. The thrill of competing with others and making trades—it's addictive, man! Troop, you're definitely onto something here!`,
     },
     {
       Image1: root25,
-      name: 'Nia Adebayo',
+      name: `Krish R.`,
       img: root22,
       rating: 5,
-      review:
-        'This app is an absolute gem for those who want to have fun and learn about the stock market. I ve already made some decent money from playing this game and I m hooked!"',
+      review:`Troop, bhai, you are just awesome!! I've been playing this for a month now, and let me tell you, it's been super crazy. The whole gaming vibe they've got going on is too nice! Hats off to the Troop team yaar.`,
     },
     {
       Image1: root25,
-      name: 'Rigo Louie',
+      name: 'Zeyan T',
       img: root23,
       rating: 5,
-      review: 'This app is an absolute gem for those who want to have fun and learn about the stock market. I ve already made some decent money from playing this game and I m hooked!"',
+      review: `Troop, my man, you're the real deal! Been playing on this fantasy stock trading app for a month now, and let me tell you, it's been one heck of a ride! It's like gaming and investing had a baby, and that baby is Troop!`,
     },
     {
       Image1: root25,
-      name: 'Mia Williams',
+      name: 'Madhuri F.',
       img: root24,
       rating: 5,
-      review: 'This app is an absolute gem for those who want to have fun and learn about the stock market. I ve already made some decent money from playing this game and I m hooked!"',
+      review: `Competing with friends is really fun. Withdrawal process is also really fast. I was playing it for the 1st time and it was a really great experience. Love playing on Troop!`,
     },
+    {
+      Image1: root25,
+      name: 'Aruna L',
+      img: root24,
+      rating: 5,
+      review: `First time I tried it, I was blown away. Troop is awesome! Money comes out quick too.`,
+    }
   ];
   return (
     <div className='w-full absolute font-primary text-white xl:top-[380vh] lg:top-[332vh]  md:mt-[235vh] max-md:mt-[195vh] max-sm:mt-[300vh]'>
@@ -103,7 +108,7 @@ import root25 from '../assets/images/Name.png';
       <div className="mt-[8%]" style={{ marginLeft: '10px', maxWidth: '100%', height: 'auto' }}>
         <Marquee {...settings} slidesToShow={currentStyles.slidesToShow}>
         {data.map((d, index)=>(
-            <div key={d.name + index} style={{ maxWidth: windowWidth < 768 ? '550px':'550px', marginRight: windowWidth < 768 ? '-150.5px':'60px',height:""}}>
+            <div key={d.name + index} style={{ maxWidth: windowWidth < 768 ? '600px':'600px', marginRight: windowWidth < 768 ? '-150.5px':'60px',height:""}}>
             <div className='' style={{ height: 'auto', color: 'black' }}>
                 <div className='px-8 py-2 rounded-[15%]' style={{ width: windowWidth < 768 ? '50%':'80%', backgroundColor: '#171935', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', color: '#FBFFFF', margin: '0 auto' }}>
                   
