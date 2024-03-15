@@ -46,7 +46,7 @@ const WorkFlow = () => {
             </div>
         </div>
       </div>
-      <div className='flex absolute w-[80%] xl:top-[52vh] lg:top-[32vh] py-8 left-[10%] md:mt-[90vh] max-md:mt-[70vh] max-sm:flex-col max-sm:mt-[130vh] '>
+      <div className='flex absolute w-[80%] xl:top-[52vh] lg:top-[32vh] py-8 left-[10%] md:mt-[90vh] max-md:mt-[70vh] max-sm:flex-col max-sm:mt-[140vh] '>
       <img src={FeaturePhone} className='w-[40%] max-sm:w-[80%] max-sm:ml-[15%]'></img>
       <div className='font-bold w-[40%] pt-[5%] ml-[15%]  max-md:ml-[15%]  mt-2 max-sm:w-[80%] max-sm:mt-[15%]'>
         <div className='xl:text-[4.8vh] md:text-[3vh] sm:text-[2vh]  max-sm:text-[3vh]'>Describe <span className='text-[#ECC960]'>feature one </span></div>

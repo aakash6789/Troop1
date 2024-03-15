@@ -48,7 +48,7 @@ const Navbar = () => {
             {/* <a  style={{ textDecoration: 'none', marginLeft: '10px' }}>
               <button style={{ backgroundColor: '#ECC960', color: 'black', padding: '8px 16px', border: 'none', borderRadius: '5rem', fontSize: '13px', fontWeight: '100', cursor: 'pointer', textDecoration: 'none', display: 'inline-block', marginTop: '10px', fontFamily: "Futura Bk BT" }}>Download Now</button>
             </a> */}
-              <button className='text-[#121212] bg-[#ECC960] rounded-full px-[5%] min-sm:px-[3%] py-4 mb-[5%] font-semibold max-sm:w-[15%] max-sm:py-1 max-sm:rounded-xl max-sm:px-0 max-sm:text-[0.8vh]'>Download Now</button>
+              <button className='text-[#121212] bg-[#ECC960] rounded-full px-[5%] min-sm:px-[3%] py-4 mb-[5%] font-semibold max-sm:w-[15%] max-sm:py-1 max-sm:rounded-xl max-sm:ml-[2%] max-sm:px-0 max-sm:text-[0.8vh]'>Download Now</button>
           </div>
         )}
       </nav>

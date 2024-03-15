@@ -8,7 +8,7 @@ import logo_linkedln from '../assets/images/logo_linkedln.png';
 const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
-    <div className='bg-[#151518] w-full absolute  text-white xl:top-[495vh] lg:top-[430vh]  md:mt-[500vh] max-md:mt-[410vh] max-sm:mt-[700vh]'>
+    <div className='bg-[#151518] w-full absolute  text-white xl:top-[495vh] lg:top-[430vh]  md:mt-[500vh] max-md:mt-[410vh] max-sm:mt-[640vh]'>
         <div className='flex w-[100%] px-[5%] justify-between font-primary'>
         <img src={footer_logo} className='w-[8%] max-sm:w-[20%]'></img>
         <div className='text-[2vh] font-bold flex justify-between w-[30%] pt-4 xl:text-[2vh] lg:text-[1.0vh] md:text-[1.0vh] sm:text-[1.2vh] max-sm:w-[40%] max-sm:text-[0.8vh]'>

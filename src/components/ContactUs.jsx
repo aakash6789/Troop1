@@ -4,8 +4,8 @@ import logo_apple from '../assets/images/logo_apple.png'
 import logo_playstore from '../assets/images/logo_playstore.png'
 const ContactUs = () => {
   return (
-    <div className='bg-[#151518] w-full absolute font-primary text-white xl:top-[440vh] lg:top-[390vh]  md:mt-[450vh] max-md:mt-[360vh] max-sm:mt-[580vh]'>
-      <div className='flex px-[5%] justify-between text-white max-sm:flex-col max-sm:pl-[25%] '>
+    <div className='bg-[#151518] w-full absolute font-primary text-white xl:top-[440vh] lg:top-[390vh]  md:mt-[450vh] max-md:mt-[360vh] max-sm:mt-[520vh]'>
+      <div className='flex px-[5%] justify-between text-white max-sm:flex-col max-sm:pl-[28%] '>
         <div className='w-[28%] mt-[5%] max-sm:w-[60%] '>
             <h1 className='font-bold xl:text-[6vh] w-[80%] ml-[5%] lg:text-[4vh] md:text-[3vh] sm:text-[2.5vh] max-sm:text-[2vh] '>Download <span className='text-[#ECC960]'>Fantasy Gaming</span> App Troop</h1>
             <div className='flex mt-[10%] xl:text-[2.5vh] md:text-[1.5vh] sm:text-[1vh]  max-sm:text-[1vh] ml-[5%]'>
